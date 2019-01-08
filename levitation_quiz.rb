@@ -2,7 +2,7 @@
 def levitation_quiz
 	answer =
 	loop do 
-	  puts 'What is that spell that enacts levitation?'
+	  puts 'What is the spell that enacts levitation?'
 	  answer = gets
 	  break if answer == 'Wingardium Leviosa'
 	end 
